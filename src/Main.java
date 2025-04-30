@@ -862,7 +862,7 @@ public class Main {
                 for (int i = 0; i < path.size(); i++) {
                     writer.print(path.get(i));
                     if (i < path.size() - 1) {
-                        writer.print(" → ");
+                        writer.print(" ");
                     }
                 }
                 
